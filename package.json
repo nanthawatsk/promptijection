@@ -1,5 +1,5 @@
 {
-  "name": "exploit",
+  "name": "promptijection",
   "version": "1.0.0",
   "scripts": {
     "preinstall": "cat /tmp/flag.txt"
